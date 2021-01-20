@@ -1,0 +1,64 @@
+.container {
+    width: 50%;
+    margin: 0 auto;
+    font-family: "Trebuchet MS", serif;
+}
+
+.table {
+    width: 50em;
+    margin-top: 2.5em;
+}
+
+tr {
+    font-size: 1.1em;
+    /*padding-bottom: 0.9em;*/
+    text-align: left;
+}
+
+table thead th {
+    border-bottom: 1px solid #aca6a6;
+    padding: 0.4em;
+}
+
+table td {
+    font-size: 0.9em;
+    padding: 0.4em;
+}
+
+table tbody tr td {
+    margin-top: 2em;
+}
+
+
+form {
+    margin-top: 2.5em;
+    padding: 0.4em;
+}
+
+.form-group {
+    margin-top: 1.1em;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-control {
+    height: 1.5em;
+    padding: 0.5em;
+}
+
+.btn {
+    margin-top: 1.5em;
+    padding: 0.8em;
+    font-family: "Trebuchet MS", serif;
+    background-color: #b05050;
+    border-radius: 0.3em;
+    font-size: 1em;
+    border: none;
+    color: white;
+    width: 5em;
+
+}
+.btn:hover {
+    background-color: #8b0000;
+    transition: 1s;
+}
