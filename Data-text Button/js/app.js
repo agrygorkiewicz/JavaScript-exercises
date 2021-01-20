@@ -8,5 +8,5 @@ document.addEventListener('DOMContentLoaded', () => {
             alert.innerHTML = el.dataset.text;
         })
     }
-
 });
+
