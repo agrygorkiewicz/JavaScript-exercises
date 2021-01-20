@@ -36,8 +36,6 @@ document.addEventListener('DOMContentLoaded', () => {
         } else {
             console.log("Lista jest pusta");
         }
-
-
     })
     button3.addEventListener("click", e => {
         if (shopping.children.length >= 2) {
